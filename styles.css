@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.flex-container{
+    background-color: #01090e;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.flex-letter{
+    background-color: #f8b3ef;
+    padding: 5%;
+    margin: 3em;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 550px) {
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+    }
+}
